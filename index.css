@@ -56,10 +56,9 @@ a {
 }
 
 .btn:hover {
-
+transition: 1s;
     color: rgb(0, 0, 39);
-    
-    background-color: rgba(240, 248, 255, 0.879);
+    border-radius: 30px;
    
 }
 
