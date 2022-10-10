@@ -39,7 +39,7 @@ a {
 }
 
 .btn {
-   
+   transition: 1s;
 
     color: rgb(0, 0, 39);
     
