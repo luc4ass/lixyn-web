@@ -137,6 +137,7 @@ margin: 10px;
 
     transform: scale(1);
     box-shadow: 0 0 20px #0000006b;
+    transform: scale(1) perspective(1000px) rotateX(auto) rotateY(auto)  ; /* translateX(-55px) */
 
    
    /*  transform: scale(1) ;*/
@@ -229,11 +230,14 @@ margin: 10px;
     padding: 10px;
     margin-bottom: 70px;
     margin-right: 20px;
-  
-     /*transform: scale(1) perspective(1000px) rotateX(5deg) rotateY(30deg) rotate(-9deg) ; /* translateX(-55px) */
+
+
 
   
   }
+
+
+  
   
   img {
     transition: 5s;
@@ -1116,4 +1120,16 @@ a:hover {
 
  
 
+}
+
+
+
+
+.z-text {
+	transform: rotateY(-15deg);
+	transition: transform 1s;
+}
+
+.z-layer:not(:first-child) {
+	color: #c4c4c4;
 }
